@@ -18,13 +18,13 @@ client = Client(api_key_test,secret_key_test, testnet= True)
 # print(client.account())
 
 # # Get asset balance
-user_coin = 'busd'
-farm_coin = 'btc'
-def get_asset_balance(assets = [farm_coin,user_coin]):
-    asset_balance = {asset:client.get_asset_balance(asset) for asset in assets}
-    return asset_balance
+# user_coin = 'busd'
+# farm_coin = 'btc'
+# def get_asset_balance(assets = [farm_coin,user_coin]):
+#     asset_balance = {asset:client.get_asset_balance(asset) for asset in assets}
+#     return asset_balance
 
-print(get_asset_balance())
+# print(get_asset_balance())
 
 farm_pair = 'BTCUSDT'
 # # Get market prices
